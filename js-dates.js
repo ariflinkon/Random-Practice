@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>JavaScript Dates</h1>
-<h2>Using new Date()</h2>
-<p>new Date() without arguments, creates a date object with the current date and time:</p>
-
-<p id="demo"></p>
-
-<script>
 const d = new Date();
-document.getElementById("demo").innerHTML = d;
-</script>
-
-</body>
-</html>
+console.log(d);
+const date = new Date(2024,07);
+console.log(date);
+const d2 = new Date(2018, 11, 24, 10);
+console.log(d2);
